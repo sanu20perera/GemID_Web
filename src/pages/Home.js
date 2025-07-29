@@ -16,9 +16,11 @@ function Home() {
   };
 
   return (
-    <div>
+    <div className="main-content">
       <h1>Welcome to GemID</h1>
-      <p>Upload a gemstone image to analyze it.</p>
+      <p>
+        Upload a gemstone image to analyze its type, shape, and estimated value using AI-based image processing.
+      </p>
       <input type="file" accept="image/*" onChange={handleImageChange} />
       <br />
       <button onClick={handleSubmit}>Analyze</button>

@@ -2,10 +2,10 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div>
+    <div className="main-content">
       <h2>Contact</h2>
-      <p>Email: sanu@example.com</p>
-      <p>LinkedIn: https://linkedin.com/in/sanu</p>
+      <p><strong>Email:</strong> sanu@example.com</p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/sanu" target="_blank" rel="noreferrer">linkedin.com/in/sanu</a></p>
     </div>
   );
 }

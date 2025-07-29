@@ -4,9 +4,12 @@ import { Link } from 'react-router-dom';
 function Navbar() {
   return (
     <nav>
-      <Link to="/">GemID</Link>
-      <Link to="/about">About</Link>
-      <Link to="/contact">Contact</Link>
+      <div><Link to="/" style={{ fontWeight: 'bold', fontSize: '18px' }}>GemID</Link></div>
+      <div>
+        <Link to="/">Home</Link>
+        <Link to="/about">About</Link>
+        <Link to="/contact">Contact</Link>
+      </div>
     </nav>
   );
 }
